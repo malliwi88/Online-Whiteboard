@@ -21,17 +21,17 @@ You can use the JavaScript API to embed BrainCert's flash-based Whiteboard in yo
 Put the following code anywhere in the HTML document:
 
 
-`<script type="text/javascript" src="//www.braincert.com/whiteboard/braincert-wb.js"></script>`
-`<script type="text/javascript">`
-        `bcwb.init({`
-            `apiKey: 'YOUR_API_KEY',`
-            `height:'1500',`
-            `width:'1500',`
-            `bgcolor:'#FFF',`
-            `logo:'LOGO_URL'`
-        `});`
-       `</script>`
-`<div id="wbplayer"> </div>`
+        <script type="text/javascript" src="//www.braincert.com/whiteboard/braincert-wb.js"></script>
+        <script type="text/javascript">
+                bcwb.init({
+                    apiKey: 'YOUR_API_KEY',
+                    height:'1500',
+                    width:'1500',
+                    bgcolor:'#FFF',
+                    logo:'LOGO_URL'
+                });
+               </script>
+        <div id="wbplayer"> </div>
 
 
 
@@ -44,17 +44,17 @@ Put the following code anywhere in the HTML document:
 
 Here is an example code:
 
-`<script type="text/javascript" src="//www.braincert.com/whiteboard/braincert-wb.js"></script>`
-`<script type="text/javascript">`
-        `bcwb.init({`
-            `apiKey: '9CfBFlnxDjyR3Jqao',`
-            `height:'1500',`
-            `width:'1500',`
-            `bgcolor:'#FFF',`
-            `logo:'https://www.braincert.org/images/bc-logo-bottom.png'`
-        `});`
-       `</script>`
-`<div id="wbplayer"> </div>`
+        <script type="text/javascript" src="//www.braincert.com/whiteboard/braincert-wb.js"></script>
+        <script type="text/javascript">
+                bcwb.init({
+                    apiKey: '9CfBFlnxDjyR3Jqao',`
+                    height:'1500',
+                    width:'1500',
+                    bgcolor:'#FFF',
+                    logo:'https://www.braincert.org/images/bc-logo-bottom.png'
+                });
+               </script>
+        <div id="wbplayer"> </div>
 
 
 ***
