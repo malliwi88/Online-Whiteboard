@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Online Whiteboard by braincert</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Online Whiteboard</h1>
+        <p>Power your website, LMS, or CMS with interactive Whiteboard.</p>
+        <p class="view"><a href="https://github.com/braincert/Online-Whiteboard">View the Project on GitHub <small>braincert/Online-Whiteboard</small></a></p>
+        <ul>
+          <li><a href="https://github.com/braincert/Online-Whiteboard/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/braincert/Online-Whiteboard/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/braincert/Online-Whiteboard">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p>BrainCert's flash-based whiteboard editor features a painting and drawing tool, highlighter, text editor, image library, LaTeX math equations, import graphics, draw shapes &amp; symbols, draw grids, wolfram alpha outputs, save snapshots, and a lot more.</p>
+
+<p>A simple JavaScript API to embed BrainCert Whiteboard in your website.</p>
+
+<p><a href="https://www.braincert.com/developer/whiteboard-api">https://www.braincert.com/developer/whiteboard-api</a></p>
+
+<p>BrainCert's standalone whiteboard can be easily integrated with any website with complete customization including your own logo, and theme. The free plan supports 2 active sessions.</p>
+
+<p><img src="https://www.braincert.com/images/whiteboard-api-front.jpg" alt="BrainCert Whiteboard API"></p>
+
+<hr>
+
+<h1>
+<a id="documentation" class="anchor" href="#documentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Documentation</h1>
+
+<p>You can use the JavaScript API to embed BrainCert's flash-based Whiteboard in your website with your own logo and theme.</p>
+
+<p>Put the following code anywhere in the HTML document:</p>
+
+<pre><code>    &lt;script type="text/javascript" src="//www.braincert.com/whiteboard/braincert-wb.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript"&gt;
+            bcwb.init({
+                apiKey: 'YOUR_API_KEY',
+                height:'1500',
+                width:'1500',
+                bgcolor:'#FFF',
+                logo:'LOGO_URL'
+            });
+           &lt;/script&gt;
+    &lt;div id="wbplayer"&gt; &lt;/div&gt;
+</code></pre>
+
+<ul>
+<li>
+<strong>apiKey</strong>    - Your API Key</li>
+<li>
+<strong>height</strong>    - Height in pixels</li>
+<li>
+<strong>width</strong> - Width in pixels</li>
+<li>
+<strong>bgcolor</strong>   - Background color of the whiteboard HTML area</li>
+<li>
+<strong>logo</strong>  - Your logo URL</li>
+</ul>
+
+<p>Here is an example code:</p>
+
+<pre><code>    &lt;script type="text/javascript" src="//www.braincert.com/whiteboard/braincert-wb.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript"&gt;
+            bcwb.init({
+                apiKey: '9CfBFlnxDjyR3Jqao',`
+                height:'1500',
+                width:'1500',
+                bgcolor:'#FFF',
+                logo:'https://www.braincert.org/images/bc-logo-bottom.png'
+            });
+           &lt;/script&gt;
+    &lt;div id="wbplayer"&gt; &lt;/div&gt;
+</code></pre>
+
+<hr>
+
+<h1>
+<a id="demo" class="anchor" href="#demo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demo</h1>
+
+<p>Seeing is Believing! See a demonstration of our amazing online whiteboard.</p>
+
+<p>Try out BrainCert whiteboard at <a href="http://www.eduweaver.com/">eduWeaver - free online whiteboard</a>.</p>
+
+<hr>
+
+<h1>
+<a id="get-api-key" class="anchor" href="#get-api-key" aria-hidden="true"><span class="octicon octicon-link"></span></a>Get API Key</h1>
+
+<p>Generate your free <a href="https://www.braincert.com/app/whiteboard">API key</a>. Our free plan supports 5 active sessions.</p>
+
+<hr>
+
+<p>BrainCert is a cloud-based e-learning platform, virtual classroom, and enterprise-ready online learning management system (LMS). A soup-to-nuts solution for students and instructors, BrainCert offers powerful tools to create (and take) online courses, tests, tutorials, and live classes.</p>
+
+<p><a href="https://www.braincert.com">https://www.braincert.com</a></p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/braincert">braincert</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+          <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-3755947-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
+
+  </body>
+</html>
