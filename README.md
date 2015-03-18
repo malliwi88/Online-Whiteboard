@@ -7,7 +7,7 @@ A simple JavaScript API to embed BrainCert Whiteboard in your website.
 
 [https://www.braincert.com/developer/whiteboard-api](https://www.braincert.com/developer/whiteboard-api)
 
-BrainCert's standalone whiteboard can be easily integrated with any website with complete customization including your own logo, and theme. The free plan supports 5 active sessions.
+BrainCert's standalone whiteboard can be easily integrated with any website with complete customization including your own logo, and theme. The free plan supports 2 active sessions.
 
 ![BrainCert Whiteboard API](https://www.braincert.com/images/whiteboard-api-front.jpg)
 
@@ -69,7 +69,7 @@ Try out BrainCert whiteboard at [eduWeaver - free online whiteboard](http://www.
 
 # Get API Key
 
-Generate your free [API key](https://www.braincert.com/app/whiteboard). Our free plan supports 5 active sessions.
+Generate your free [API key](https://www.braincert.com/app/whiteboard). Our free plan supports 2 active sessions.
 
 
 ***
